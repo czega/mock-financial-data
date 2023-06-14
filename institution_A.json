@@ -1,0 +1,93 @@
+{
+  "data": [
+    {
+      "Account1": {
+        "name": "My First Checking Account",
+        "type": "DEPOSITORY CHECKING",
+        "account_number": "123456789",
+        "currency": "USD"
+      },
+      "Transactions": [
+        {
+          "amount": 1500,
+          "date": 0,
+          "description": "Direct deposit from employer",
+          "type": "deposit",
+          "currency": "USD"
+        },
+        {
+          "amount": -1000,
+          "date": 5,
+          "description": "Monthly rent payment",
+          "type": "withdrawal",
+          "currency": "USD"
+        },
+        {
+          "amount": -75,
+          "date": 5,
+          "description": "Online bill payment for utility services",
+          "type": "withdrawal",
+          "currency": "USD"
+        },
+        {
+          "amount": -200,
+          "date": 5,
+          "description": "Check payment to John Doe",
+          "type": "withdrawal",
+          "currency": "GBP"
+        },
+        {
+          "amount": -50,
+          "date": 10,
+          "description": "ATM cash withdrawal",
+          "type": "withdrawal",
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "Account2": {
+        "name": "My First Savings Account",
+        "type": "High-yield savings account",
+        "account_number": "0000000000"
+      },
+      "Transactions": [
+        {
+          "amount": -50,
+          "date": 0,
+          "description": "ATM",
+          "type": "withdrawal",
+          "currency": "MXN"
+        },
+        {
+          "amount": -100,
+          "date": 0,
+          "description": "Online transfer to John Doe",
+          "type": "withdrawal",
+          "currency": "USD"
+        },
+        {
+          "amount": 10,
+          "date": 1,
+          "description": "Interest earned",
+          "type": "deposit",
+          "currency": "USD"
+        },
+        {
+          "amount": 200,
+          "date": 1,
+          "description": "Deposit from employer",
+          "type": "deposit",
+          "currency": "USD"
+        },
+        {
+          "amount": -25,
+          "date": 2,
+          "description": "Grocery store",
+          "type": "withdrawal",
+          "currency": "MXN"
+        }
+      ]
+    }
+  ]
+}
