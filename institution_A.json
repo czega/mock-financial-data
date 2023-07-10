@@ -34,14 +34,14 @@
           "date": 5,
           "description": "Check payment to John Doe",
           "type": "withdrawal",
-          "currency": "GBP"
+          "currency": "USD"
         },
         {
           "amount": -50,
           "date": 10,
           "description": "ATM cash withdrawal",
           "type": "withdrawal",
-          "currency": "EUR"
+          "currency": "USD"
         }
       ]
     },
@@ -57,7 +57,7 @@
           "date": 0,
           "description": "ATM",
           "type": "withdrawal",
-          "currency": "MXN"
+          "currency": "USD"
         },
         {
           "amount": -100,
@@ -85,7 +85,7 @@
           "date": 2,
           "description": "Grocery store",
           "type": "withdrawal",
-          "currency": "MXN"
+          "currency": "USD"
         }
       ]
     }
